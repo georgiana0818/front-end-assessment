@@ -1,0 +1,18 @@
+.header-wrap {
+    position: fixed;
+    width: 100%;
+    z-index: 597;
+    background-color: transparent;
+    margin: 20px;
+    display: flex;
+}
+
+.nav-toggle {
+    margin: 15px;
+}
+
+.logo-wrap {}
+
+a.logo {
+    cursor: none;
+}

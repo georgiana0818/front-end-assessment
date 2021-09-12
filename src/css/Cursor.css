@@ -1,0 +1,22 @@
+.app-cursor {
+    z-index: 2000;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+    pointer-events: none;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    position: fixed;
+    text-align: center;
+}
+
+.cursor-text {
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
